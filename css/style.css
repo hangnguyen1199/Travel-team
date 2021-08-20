@@ -663,3 +663,75 @@ footer {
 .desti-time i {
   margin-top: 8px;
 }
+/* testimonials */
+.testimonials{
+  padding:0px 10%;
+}
+.testimonials-box{
+  display: flex;
+  overflow: hidden;
+}
+.testi-title{
+  width:40%;
+  min-width: 409px;
+}
+.testi-title p{
+  color:#5E6282;
+  font-size: 1.2rem;
+  font-weight:600;
+  text-transform: uppercase;
+}
+.testi-title h1{
+  color: #14183E;
+  font-size: 3.1rem;
+  text-transform: capitalize;
+}
+.carousel-item{
+  max-width: 500px;
+}
+.carousel-inner{
+  /* display: flex;
+  flex-direction: column; */
+}
+
+/* logo */
+.logo{
+  margin:120px 10%;
+}
+.logo-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-item{
+  width:241px;
+  height:86px;
+  align-items: center;
+  overflow:hidden;
+}
+.logo-item:hover{
+  border-radius:10px;
+  box-shadow:0px 10px 10px rgba(100, 100, 100, 0.1);
+}
+.real{
+  width:241px;
+  height:86px;
+  object-fit: none;
+  object-position:50% 50%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+.active{
+  filter:none;
+}
+.active1{
+  border-radius:10px;
+  box-shadow:0px 10px 10px rgba(100, 100, 100, 0.1);
+}
+.real:hover{
+  filter:none;
+  cursor: pointer;
+}

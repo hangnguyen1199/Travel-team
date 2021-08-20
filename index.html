@@ -49,13 +49,13 @@
                         <a class="nav-link" style="border: 1px solid #000000; border-radius: 5px;" href="#">Sign up</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    EN
-                  </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">VI</a>
-                        </div>
-                    </li>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          EN
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">VI</a></li>
+                        </ul>
+                      </li>
                 </ul>
             </div>
         </nav>
@@ -133,7 +133,7 @@
         </div>
     </section>
     <!-- destination -->
-    <section class="destinations">
+    <section class="destinations" data-aos="fade-up" data-aos-anchor-placement="top-center">
         <div class="destinations-box">
             <h4 class="desti-suptitle">Top Selling</h4>
             <h1 class="desti-title">Top Destinations</h1>
@@ -229,68 +229,78 @@
         </div>
     </section>
     <!-- Testimonials -->
-    <section class="testimonials">
+    <section class="testimonials" data-aos="fade-up" data-aos-anchor-placement="top-center">
         <div class="testimonials-box">
             <div class="testi-title">
                 <p>Testimonials</p>
                 <h1>What people say about Us.</h1>
-            </div>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <div class="carousel-indicators" id="slide-button">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="testi-item">
-                        <p>“On the Windows talking painted pasture yet its express parties use. 
-                            Sure last upon he same as knew next. Of believed or diverted no.”
-                        </p>
-                        <h5>Mike taylor</h5>
-                        <h6>Lahore, Pakistan</h6>
-                        <div class="test-im">
+                        <div class="testi-content">
+                            <p>“On the Windows talking painted pasture yet its express parties use. 
+                                Sure last upon he same as knew next. Of believed or diverted no.”
+                            </p>
+                            <h5>Mike taylor1</h5>
+                            <h6>Lahore, Pakistan</h6>
+                        </div>
+                        <div class="testi-img">
                             <img src="./image/testi.png" alt="">
                         </div>
+                        
                     </div>
                   </div>
                   <div class="carousel-item">
                     <div class="testi-item">
-                        <p>“On the Windows talking painted pasture yet its express parties use. 
-                            Sure last upon he same as knew next. Of believed or diverted no.”
-                        </p>
-                        <h5>Mike taylor</h5>
-                        <h6>Lahore, Pakistan</h6>
-                        <div class="test-im">
+                        <div class="testi-content">
+                            <p>“On the Windows talking painted pasture yet its express parties use. 
+                                Sure last upon he same as knew next. Of believed or diverted no.”
+                            </p>
+                            <h5>Mike taylor22</h5>
+                            <h6>Lahore, Pakistan</h6>
+                        </div>
+                        <div class="testi-img">
                             <img src="./image/testi.png" alt="">
                         </div>
+                        
                     </div>
                   </div>
                   <div class="carousel-item">
                     <div class="testi-item">
-                        <p>“On the Windows talking painted pasture yet its express parties use. 
-                            Sure last upon he same as knew next. Of believed or diverted no.”
-                        </p>
-                        <h5>Mike taylor</h5>
-                        <h6>Lahore, Pakistan</h6>
-                        <div class="test-im">
+                        <div class="testi-content">
+                            <p>“On the Windows talking painted pasture yet its express parties use. 
+                                Sure last upon he same as knew next. Of believed or diverted no.”
+                            </p>
+                            <h5>Mike taylor333</h5>
+                            <h6>Lahore, Pakistan</h6>
+                        </div>
+                        <div class="testi-img">
                             <img src="./image/testi.png" alt="">
                         </div>
+                        
                     </div>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+            </div>
+            <div id="control">
+                <button class="carousel-control carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <i class="fas fa-chevron-up"></i>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                <button class="carousel-control carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <i class="fas fa-chevron-down"></i>
                 </button>
             </div>
         </div>
     </section>
-    <section class="logo">
+    <!-- logo -->
+    <section class="logo1" data-aos="fade-up" data-aos-anchor-placement="top-center">
         <div class="logo-box">
             <div class="logo-item">
                 <img class="real" onclick="addActive(this) " src="./image/image 27.png" alt="logo">

@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy-example" tabindex="0">
     <div class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
             <a class="navbar-brand" href="#">Jadoo
                 <div></div>
                 <div class="back2"></div>
@@ -31,19 +31,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">Desitnations</a>
+                        <a class="nav-link" href="#destinations">Desitnations</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Hotels</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Flights</a>
+                        <a class="nav-link" href="#logo">Flights</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Bookings</a>
+                        <a class="nav-link" href="#books">Bookings</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Login</a>
+                        <a class="nav-link" href="#subscribe">Login</a>
                     </li>
                     <li class="nav-item sign-up">
                         <a class="nav-link" style="border: 1px solid #000000; border-radius: 5px;" href="#">Sign up</a>
@@ -64,7 +64,7 @@
         <img src="./image/Decore (1).png" alt="">
     </div>
     <!-- hero -->
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="hero-box">
             <div class="hero-content">
                 <h5 class="sub-title">Best Destinations around the world</h5>
@@ -133,7 +133,7 @@
         </div>
     </section>
     <!-- destination -->
-    <section class="destinations" data-aos="fade-up" data-aos-anchor-placement="top-center">
+    <section class="destinations" id="destinations" data-aos="fade-up" data-aos-anchor-placement="top-center">
         <div class="destinations-box">
             <h4 class="desti-suptitle">Top Selling</h4>
             <h1 class="desti-title">Top Destinations</h1>
@@ -229,7 +229,7 @@
         </div>
     </section>
     <!-- Testimonials -->
-    <section class="testimonials" data-aos="fade-up" data-aos-anchor-placement="top-center">
+    <section class="testimonials" id="testimonials" data-aos="fade-up" data-aos-anchor-placement="top-center">
         <div class="testimonials-box">
             <div class="testi-title">
                 <p>Testimonials</p>
@@ -300,7 +300,7 @@
         </div>
     </section>
     <!-- logo -->
-    <section class="logo1" data-aos="fade-up" data-aos-anchor-placement="top-center">
+    <section class="logo1" id="logo" data-aos="fade-up" data-aos-anchor-placement="top-center">
         <div class="logo-box">
             <div class="logo-item">
                 <img class="real" onclick="addActive(this) " src="./image/image 27.png" alt="logo">
@@ -412,4 +412,4 @@
     </script>
 </body>
 
-</html>
+</html>rgba(145, 56, 56, 0.719)

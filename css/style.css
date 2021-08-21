@@ -455,7 +455,10 @@ footer {
     width: 100%;
     z-index: 12345;
 }
-
+.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
 .navbar {
     padding: 10px 8% 10px 10%;
     background-color: rgba(251, 253, 242, 0.445) !important;
@@ -660,7 +663,7 @@ footer {
 
 .desti-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .desti-item {

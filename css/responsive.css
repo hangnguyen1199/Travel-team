@@ -1,10 +1,16 @@
      @media all and (min-width: 1920px) {
          .category-item {
-             margin-left: 126px;
+             margin-left: 105px !important;
+         }
+         .logo1 {
+             padding: 150px 15%;
+         }
+         .rectangle-text p {
+             padding: 79px 258px 0px 275px;
          }
      }
      
-     @media all and (min-width: 1280px) {
+     @media all and (max-width: 1280px) {
          .main-image img {
              width: 133%;
              height: 80vh;
@@ -30,6 +36,12 @@
          }
          .logo-item {
              width: 227px;
+         }
+         .logo1 {
+             padding: 150px 5%;
+         }
+         .plane2 {
+             right: -89px;
          }
      }
      
@@ -75,6 +87,9 @@
          }
          .play-button p {
              padding-left: 17px;
+         }
+         .category-item {
+             margin-left: 28px;
          }
          .category-item {
              margin-top: 30px;
@@ -155,6 +170,9 @@
          }
          .logo-box {
              padding-left: 17%;
+         }
+         .logo-item {
+             margin-top: 28px;
          }
          .item5 {
              margin-left: 22%;

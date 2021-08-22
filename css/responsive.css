@@ -1,199 +1,441 @@
-     @media all and (min-width: 1920px) {
-         .category-item {
-             margin-left: 105px !important;
-         }
-         .logo1 {
-             padding: 150px 15%;
-         }
-         .rectangle-text p {
-             padding: 79px 258px 0px 275px;
-         }
-     }
-     
-     @media all and (max-width: 1280px) {
-         .main-image img {
-             width: 133%;
-             height: 80vh;
-         }
-         .services {
-             padding: 0px 10%;
-         }
-         .service-text {
-             margin-left: 19%;
-         }
-         .category-item {
-             margin-left: -18px;
-         }
-         .book-img img {
-             margin-left: 0px;
-         }
-         .footer-box {
-             position: relative;
-             left: 125px;
-         }
-         .group {
-             padding: 23px 182px 30px 0px;
-         }
-         .logo-item {
-             width: 227px;
-         }
-         .logo1 {
-             padding: 150px 5%;
-         }
-         .plane2 {
-             right: -89px;
-         }
-     }
-     
-     @media screen and (max-width: 768px) {
-         .main-image img {
-             width: 143%;
-             height: 39vh;
-             object-fit: cover;
-             object-position: -74px 3px;
-             margin-top: 111%;
-         }
-         .hero-image {
-             width: 59%;
-         }
-         .hero-content {
-             width: 513px;
-         }
-         .title h2 {
-             font-size: 3.8rem;
-         }
-         .title img {
-             top: 133px;
-             right: 128px;
-             width: 67%;
-         }
-         .plane1 {
-             top: 202px;
-             width: 50%;
-         }
-         .plane2 {
-             top: 251px;
-             right: -68px;
-             width: 50%;
-         }
-         .hero-buttons {
-             font-size: 17px;
-         }
-         .hero-buttons>button {
-             width: 133px;
-         }
-         .play-button {
-             margin-left: 38px;
-         }
-         .play-button p {
-             padding-left: 17px;
-         }
-         .category-item {
-             margin-left: 28px;
-         }
-         .category-item {
-             margin-top: 30px;
-         }
-         .image-right {
-             margin-right: 38px;
-         }
-         .book {
-             padding: 10px 16%;
-         }
-         .values {
-             margin-left: 71px;
-         }
-         .book-trip {
-             flex-direction: column;
-         }
-         .book-img img {
-             margin-top: -132px;
-             width: 120%;
-             height: 100%;
-             margin-left: -3px;
-         }
-         .text {
-             text-align: center;
-         }
-         .testimonials-box {
-             flex-direction: column;
-             text-align: center;
-         }
-         .testi-title {
-             left: 15%;
-         }
-         #slide-button {
-             margin-left: 173px;
-         }
-         #control {
-             top: 70%;
-         }
-         .Subscribe {
-             padding: 0px 10%;
-         }
-         .rectangle {
-             height: 380px;
-             background-position: -43% 134%;
-         }
-         .rectangle p {
-             padding: 0px;
-             margin-top: 20px;
-             font-size: 25px;
-         }
-         form {
-             padding-left: 0px;
-             margin: 10px;
-         }
-         .email input {
-             width: 441px;
-             height: 58px;
-         }
-         .btn-sub {
-             width: 156px;
-             height: 56px;
-         }
-         .subscribe-img {
-             margin-top: -17%;
-             margin-right: -16%;
-         }
-         .subscribe-img img {
-             width: 85%;
-         }
-         footer {
-             padding: 63px 10%;
-         }
-         .footer-box {
-             left: 0px;
-         }
-         .logo {
-             text-align: center;
-         }
-         .logo-box {
-             padding-left: 17%;
-         }
-         .logo-item {
-             margin-top: 28px;
-         }
-         .item5 {
-             margin-left: 22%;
-         }
-         .logo p {
-             margin-right: 0%;
-         }
-         .mb-2 {
-             width: 100%;
-         }
-         .group {
-             width: 100%;
-             padding: 23px 0px 30px 0px;
-         }
-         .app .ft-icon {
-             width: 170px;
-             height: 48px;
-             margin-right: -15px;
-         }
-         .real {
-             width: 100%;
-             height: 81px;
-         }
-     }
+@media all and (min-width: 1920px) {
+  .category-item {
+    margin-left: 105px !important;
+  }
+  .logo1 {
+    padding: 150px 15%;
+  }
+  .rectangle-text p {
+    padding: 79px 258px 0px 275px;
+  }
+}
+
+@media all and (max-width: 1280px) {
+  .main-image img {
+    width: 133%;
+    height: 80vh;
+  }
+  .services {
+    padding: 0px 10%;
+  }
+  .service-text {
+    margin-left: 19%;
+  }
+  .category-item {
+    margin-left: -18px;
+  }
+  .book-img img {
+    margin-left: 0px;
+  }
+  .footer-box {
+    position: relative;
+    left: 125px;
+  }
+  .group {
+    padding: 23px 182px 30px 0px;
+  }
+  .logo-item {
+    width: 227px;
+  }
+  .logo1 {
+    padding: 150px 5%;
+  }
+  .plane2 {
+    right: -89px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-image img {
+    width: 143%;
+    height: 39vh;
+    object-fit: cover;
+    object-position: -74px 3px;
+    margin-top: 111%;
+  }
+  .hero-image {
+    width: 59%;
+  }
+  .hero-content {
+    width: 513px;
+  }
+  .title h2 {
+    font-size: 3.8rem;
+  }
+  .title img {
+    top: 133px;
+    right: 128px;
+    width: 67%;
+  }
+  .plane1 {
+    top: 202px;
+    width: 50%;
+  }
+  .plane2 {
+    top: 251px;
+    right: -68px;
+    width: 50%;
+  }
+  .hero-buttons {
+    font-size: 17px;
+  }
+  .hero-buttons > button {
+    width: 133px;
+  }
+  .play-button {
+    margin-left: 38px;
+  }
+  .play-button p {
+    padding-left: 17px;
+  }
+  .category-item {
+    margin-left: 28px;
+  }
+  .category-item {
+    margin-top: 30px;
+  }
+  .image-right {
+    margin-right: 38px;
+  }
+  .book {
+    padding: 10px 16%;
+  }
+  .values {
+    margin-left: 71px;
+  }
+  .book-trip {
+    flex-direction: column;
+  }
+  .book-img img {
+    margin-top: -132px;
+    width: 120%;
+    height: 100%;
+    margin-left: -3px;
+  }
+  .text {
+    text-align: center;
+  }
+  .testimonials-box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .testi-title {
+    left: 15%;
+  }
+  #slide-button {
+    margin-left: 173px;
+  }
+  #control {
+    top: 70%;
+  }
+  .Subscribe {
+    padding: 0px 10%;
+  }
+  .rectangle {
+    height: 380px;
+    background-position: -43% 134%;
+  }
+  .rectangle p {
+    padding: 0px;
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  form {
+    padding-left: 0px;
+    margin: 10px;
+  }
+  .email input {
+    width: 441px;
+    height: 58px;
+  }
+  .btn-sub {
+    width: 156px;
+    height: 56px;
+  }
+  .subscribe-img {
+    margin-top: -17%;
+    margin-right: -16%;
+  }
+  .subscribe-img img {
+    width: 85%;
+  }
+  footer {
+    padding: 63px 10%;
+  }
+  .footer-box {
+    left: 0px;
+  }
+  .logo {
+    text-align: center;
+  }
+  .logo-box {
+    padding-left: 17%;
+  }
+  .logo-item {
+    margin-top: 28px;
+  }
+  .item5 {
+    margin-left: 22%;
+  }
+  .logo p {
+    margin-right: 0%;
+  }
+  .mb-2 {
+    width: 100%;
+  }
+  .group {
+    width: 100%;
+    padding: 23px 0px 30px 0px;
+  }
+  .app .ft-icon {
+    width: 170px;
+    height: 48px;
+    margin-right: -15px;
+  }
+  .real {
+    width: 100%;
+    height: 81px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .header {
+    width: 100% !important;
+    overflow-x: hidden;
+  }
+  #navbar {
+    width: 100%;
+    padding: auto 0px;
+  }
+  .hero {
+    padding: 100px 20px 150px 20px;
+  }
+  .hero-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .hero-content p {
+    font-size: 1rem;
+    margin: 30px 0px;
+  }
+  .sub-title {
+    font-size: 0.8rem;
+  }
+
+  .title h2 {
+    font-size: 3rem;
+  }
+  .title img {
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .hero-image {
+    position: absolute;
+    top: 0px;
+    right: 60px;
+    z-index: -1;
+    width: 70%;
+  }
+  .main-image img {
+    height: 120%;
+    width: 120%;
+    object-fit: contain;
+    object-position: 0px;
+  }
+  .plane1 {
+    top: 335px;
+  }
+  .plane2 {
+    top: 250px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .service-text {
+    justify-content: flex-start;
+    margin-left: 0px;
+  }
+  .image-right {
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+  }
+  .destinations {
+    padding: 80px 10px;
+  }
+  .desti-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .desti-item {
+    margin-bottom: 20px;
+  }
+  .book {
+    padding: 10px;
+  }
+  .book-text {
+    width: 100%;
+  }
+  .book-text h1 {
+    width: 100%;
+    font-size: 2rem;
+  }
+  .values {
+    margin-left: 10px;
+  }
+  #slide-button {
+    position: absolute;
+    top: 530px;
+    z-index: 1000;
+  }
+  #testimonials {
+    padding: 0px 10px;
+  }
+  .testi-title {
+    left: 0px;
+  }
+  #control {
+    right: 10px;
+  }
+  #logo {
+    padding-bottom: 100px;
+  }
+  .logo-box {
+    padding-left: 0px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-box .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #subscribe {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .rectangle-text {
+    padding: 30px 30px 10px 30px;
+  }
+  form {
+    justify-content: space-evenly;
+  }
+  .email input {
+    width: 120%;
+    height: 40px;
+  }
+  .btn-sub {
+    width: 25%;
+    height: 40px;
+    margin-left: 24px;
+    margin-top: 10px;
+  }
+  .subscribe-img {
+    display: none;
+  }
+  #footer {
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+  .footer-first {
+    width: 33%;
+    text-align: center;
+  }
+  .row {
+    width: 100%;
+  }
+  .group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 376px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .header {
+    width: 100% !important;
+  }
+  #slide-button {
+    top: 180px;
+  }
+  .testi-title {
+    width: 100%;
+  }
+  .testi-title h1 {
+    font-size: 2rem;
+  }
+  .desti-title {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 321px) {
+  body {
+    overflow-x: hidden;
+  }
+  .copyright p {
+    padding: 30px 0px;
+  }
+  .text-uppercase {
+    font-size: 1rem !important;
+  }
+  .rectangle-text {
+    padding-bottom: 0px;
+  }
+  .rectangle-text p {
+    margin-bottom: 0px;
+  }
+  form {
+    margin: 0px 10px 10px 10px;
+  }
+  .carousel-inner {
+    height: 400px;
+  }
+  .testi-title {
+    min-width: 100%;
+  }
+  #slide-button {
+    margin-left: 40%;
+    top: 120px;
+  }
+  .book-img img {
+    margin-top: -52px;
+  }
+  .book-text h1 {
+    line-height: 120%;
+  }
+  .category-item {
+    margin-left: 0px;
+  }
+  .hero-image {
+    top: 150px;
+    right: 60px;
+  }
+  .hero-buttons > button {
+    min-width: 133px;
+  }
+  .item-text p {
+    padding-right: 10px;
+  }
+  .title img {
+    top: 45px;
+    left: 0px;
+  }
+}

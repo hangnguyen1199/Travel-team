@@ -696,7 +696,7 @@ footer {
     display: flex;
     justify-content: space-between;
     color: #5e6282;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 
@@ -706,7 +706,7 @@ footer {
 
 .desti-time p {
     color: #5e6282;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     margin-left: 20px;
 }
